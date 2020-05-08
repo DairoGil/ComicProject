@@ -1,0 +1,17 @@
+$fondo-opaco: rgb(255,255,255,0.5)
+
+@mixin background($imgurl,$position:center,$repeat: no-repeat, $size: 100%)
+    background: 
+        image: url($imgurl)
+        position: $position
+        repeat: $repeat
+        size: $size
+    
+.content
+    min-height: 100%
+    @include background('https://www.onlygfx.com/wp-content/uploads/2017/01/comic-explosion-bubble-2.png')
+    
+.content-int
+    padding-top: 40px
+    background-color: $fondo-opaco
+    min-height: 100vh

@@ -1,0 +1,47 @@
+$star-color: #494746
+$star-color-select: orange
+
+.comic-content
+    opacity: 1
+
+.comic-title
+    margin-bottom: 30px
+
+form 
+    width: 250px
+    margin: 0 auto
+    height: 230px
+
+form 
+    p 
+        text-align: center
+
+form 
+    .estrellas 
+        font-size: 50px
+
+input[type="radio"] 
+    display: none
+
+.estrellas 
+    color: $star-color
+
+.new-comic
+    margin-bottom: 40px
+    margin-top: 30px
+
+.clasificacion 
+    direction: rtl
+    unicode-bidi: bidi-override
+    margin-top: 1.5rem
+
+.clasificacion 
+    h3
+        margin-bottom: 0
+
+.estrellas:hover,
+.estrellas:hover ~ label 
+    color: $star-color-select
+
+input[type="radio"]:checked ~ label 
+    color: $star-color-select

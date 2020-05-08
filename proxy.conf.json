@@ -1,0 +1,7 @@
+{
+    "*": {
+        "target":"https://xkcd.com",
+        "secure": false,
+        "changeOrigin": true
+    }    
+}

@@ -1,0 +1,22 @@
+<div class="comic-content text-center">
+    <h1 class="comic-title">{{comic.title}} #{{comic.num}}</h1>
+    <img src="{{comic.img}}" alt="">
+
+    <form #myForm="ngForm" (submit)="submitForm(myForm)">
+        <div class="clasificacion">
+            <h3>Danos tu opinión</h3>
+            <input ngModel id="radio1" type="radio" name="estrellas" value="5">
+            <label class="estrellas" for="radio1">★</label>
+            <input ngModel id="radio2" type="radio" name="estrellas" value="4">
+            <label class="estrellas" for="radio2">★</label>
+            <input ngModel id="radio3" type="radio" name="estrellas" value="3">
+            <label class="estrellas" for="radio3">★</label>
+            <input ngModel id="radio4" type="radio" name="estrellas" value="2">
+            <label class="estrellas" for="radio4">★</label>
+            <input ngModel id="radio5" type="radio" name="estrellas" value="1">
+            <label class="estrellas" for="radio5">★</label>
+        </div>
+        <button class="btn btn-success new-comic" type="submit">Nuevo Comic</button>
+    </form>
+</div>
+
