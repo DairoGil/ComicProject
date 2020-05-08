@@ -1,27 +1,18 @@
 # ProjectComic
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+Este es un proyecto creado con el fin de presentar una prueba técnica para desarrollador Front-end
 
-## Development server
+## Requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Debe tener instalado en el equipo la siguiente tecnología:
 
-## Code scaffolding
+* Node.js
+* Angular-CLI
+* Un editor como Visual Studio Code
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para más información puede visitar https://medium.com/@fernando.enriquez.silerio/angular-8-paso-a-paso-preparaci%C3%B3n-del-ambiente-e-introducci%C3%B3n-a-angular-dbc9f7c08c50
 
-## Build
+## Funcionamiento
+Una vez tenga los programas instalados, debe descargar el proyecto y abrirlo en Visual Studio, luego abrir una consola en el editor y ejecutar el comando ng serve. Una vez terminada la ejecución debe ir al navegador y en una nueva pestaña navegar a http://localhost:4200/.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ya en el enlace se encontrará con una página en la que vera el título de un comic, el número, la imagen del comic como tal, la opción para calificar dicho comic mediante las estrellas que indican su nivel de satisfacción y luego un botón con el cual podrá ver un nuevo comic.
